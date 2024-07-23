@@ -1,0 +1,20 @@
+<!DOCTYPE html> <!-- Declara o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Inicia o documento HTML e define o idioma como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define as configurações de visualização para dispositivos móveis -->
+    <title>Consultor de Cep</title> <!-- Define o título da página que aparece na aba do navegador -->
+</head>
+<body>
+    <h1>Consultor de Cep</h1> <!-- Cabeçalho principal da página com o título -->
+    
+    <label for="cep">Cep</label> <!-- Rótulo associado ao campo de entrada com o ID "cep" -->
+    <input type="text" id="cep" name="cep"> <!-- Campo de entrada de texto para o usuário inserir o CEP -->
+    <button id="consulta" onclick="mostrarcep()">consultar</button> <!-- Botão que chama a função mostrarcep() quando clicado -->
+    
+    <p id="resultado"></p> <!-- Parágrafo onde o resultado da consulta será exibido -->
+
+    <!-- Inclui o arquivo JavaScript que contém a função mostrarcep() -->
+    <script src="index.js"></script>
+</body>
+</html>
